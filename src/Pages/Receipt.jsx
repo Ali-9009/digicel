@@ -41,8 +41,8 @@ export default function Receipt() {
                 </ReceiptSection>
 
                 <ReceiptSection title="Product Details">
-                    <Row label="Carrier" value="AT & T" />
-                    <Row label="Plan" value="AT&T $35" />
+                    <Row label="Carrier" value="Digicel" />
+                    <Row label="Plan" value="Digicel $35" />
                     <Row label="Activation Date" value="03-03-2026" />
                     <Row label="SIM No." value="1111100000" />
                     <Row label="IMEI" value="9827772766166537388" />
@@ -76,7 +76,7 @@ export default function Receipt() {
                 </button>
 
                 <button className="flex-1 h-10 rounded-full bg-(--primary-color) text-white text-xs font-bold">
-                    TEXT 
+                    TEXT
                 </button>
             </div>
         </main>
